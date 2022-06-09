@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-2by1">
+                            <img src="https://store-images.s-microsoft.com/image/apps.47667.13510798882936926.65b7211f-bb0f-495d-8e8a-e2b562358e4c.8fc890ab-2690-43d7-9b86-35ee51622314?mode=scale&q=90&h=300&w=300"
+                                alt="">
+                        </figure>
+                    </div>
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            GAME
+                        </p>
+    
+                    </header>
+                    <div class="card-content">
+                        <div class="content">
+                            <h1 class="title is-1"> <span id="P1display">0</span> to <span id="P2display">0</span> </h1>
+                            <p class="subtitle">Use buttons below to keep score</p>
+    
+                            <label for="rounds" class="label is-large is-inline"><b>Playing to</b></label>
+                            <div class="select is-rounded">
+                                <select name="rounds" id="rounds">
+                                    <option value="">Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <button id="player1" class="is-primary button card-footer-item">+Player One</button>
+                        <button id="player2" class="button is-info button card-footer-item">+Player Two</button>
+                        <button id="reset" class="button is-danger button card-footer-item">Reset</button>
+    
+    
+    
+                    </footer>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
